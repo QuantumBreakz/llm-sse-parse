@@ -1,0 +1,22 @@
+{
+  "name": "llm-sse-parse",
+  "version": "0.1.0",
+  "description": "Parse streamed LLM responses (Server-Sent Events) correctly: events split across chunks, multi-byte characters, CRLF at chunk boundaries. Zero dependencies.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "types": "./index.d.ts",
+  "files": ["index.js", "index.d.ts"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test" },
+  "keywords": ["sse", "server-sent-events", "llm", "openai", "streaming", "fetch", "parser", "eventsource"],
+  "author": "Ali Ahmed (https://aliahmed.si/)",
+  "license": "MIT",
+  "homepage": "https://aliahmed.si/blog/parse-sse-llm-stream-nodejs/",
+  "repository": { "type": "git", "url": "git+https://github.com/QuantumBreakz/llm-sse-parse.git" },
+  "bugs": { "url": "https://github.com/QuantumBreakz/llm-sse-parse/issues" }
+}
